@@ -1,0 +1,23 @@
+[[mods]]
+modId="bedrockvrmod"
+version="${file.jarVersion}"
+displayName="Bedrock VR Mod"
+credits="Just1Gaming321"
+authors="Just1Gaming321"
+description='''
+Minecraft Bedrock Edition Android VR addon for basic smartphone VR headsets.
+'''
+
+[[dependencies.bedrockvrmod]]
+modId="forge"
+mandatory=true
+versionRange="[49.0.2,)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.bedrockvrmod]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.21.4]"
+ordering="NONE"
+side="BOTH"
